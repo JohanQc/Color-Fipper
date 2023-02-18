@@ -66,8 +66,12 @@ body {
     border-radius: 5px;
     // border: 1px black solid;
     padding: 1px;
+    transition: .3s;
     &:hover {
       cursor: pointer;
+    }
+    &:active {
+    transform: scale(1.2);
     }
   }
 }

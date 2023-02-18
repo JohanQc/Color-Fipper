@@ -65,9 +65,13 @@ body {
 .final-color .copy-icon {
   border-radius: 5px;
   padding: 1px;
+  transition: 0.3s;
 }
 .final-color .copy-icon:hover {
   cursor: pointer;
+}
+.final-color .copy-icon:active {
+  transform: scale(1.2);
 }
 
 .title-desktop {
